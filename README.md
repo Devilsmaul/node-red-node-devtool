@@ -10,8 +10,10 @@ i also recommend to update to the latest version of yarn: ```yarn set version st
 
 
 ### setup
-use ```yarn install``` at root level to setup everything.
-
+at the root directory do:
+1. use ```yarn install``` to setup everything.
+2. perform ```yarn build```
+3. ```yarn test``` to see if the node tests run successfully
 
 ### create a node
 1. create your nodes in ```packages/nodes/yourNodeName```
