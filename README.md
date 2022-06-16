@@ -1,7 +1,7 @@
 # node-red-node-devtool
 This monorepo can be used to develop node-red nodes in typescript with VSCode
 
-###prerequisites
+### prerequisites
 install node >= 16.10
 install yarn https://yarnpkg.com/getting-started/install
 install yarn workspace tools plugin https://yarnpkg.com/api/modules/plugin_workspace_tools.html
