@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2015",
+    "strict": false,
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+  },
+  "include": [
+    "src/*",
+    "src/**/*",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

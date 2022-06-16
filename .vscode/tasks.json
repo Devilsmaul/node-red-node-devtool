@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "label": "yarn: clean",
+      "type": "shell",
+      "command": "yarn clean",
+      "problemMatcher": []
+    },
+		{
+      "label": "yarn: build",
+      "type": "shell",
+      "command": "yarn build",
+      "problemMatcher": []
+    },
+    {
+      "label": "prepare",
+      "dependsOrder": "sequence",
+      "dependsOn": ["yarn: clean", "yarn: build"]
+    }
+	]
+}

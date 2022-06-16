@@ -1,0 +1,10 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+}
